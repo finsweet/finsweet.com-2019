@@ -1,0 +1,2 @@
+var generalMobile=!1;var resizeEvent=function(){var viewportWidth=window.innerWidth;if(viewportWidth<=991){generalMobile=!0}else{generalMobile=!1}}
+resizeEvent();window.addEventListener("resize",resizeEvent)
